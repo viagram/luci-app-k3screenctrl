@@ -25,7 +25,7 @@ define Package/$(PKG_NAME)
 	CATEGORY:=LuCI
 	SUBMENU:=3. Applications
 	TITLE:=LuCI Support for k3screenctrl
-	DEPENDS:=@PACKAGE_phicommk3-screenctrl +phicommk3-screenctrl
+	DEPENDS:=+k3screenctrl
 endef
 
 define Package/$(PKG_NAME)/description
@@ -33,8 +33,6 @@ define Package/$(PKG_NAME)/description
 endef
 
 define Build/Prepare
-	$(foreach po,$(wildcard ${CURDIR}/files/luci/i18n/*.po), \
-		po2lmo $(po) $(PKG_BUILD_DIR)/$(patsubst %.po,%.lmo,$(notdir $(po)));)
 endef
 
 define Package/$(PKG_NAME)/install

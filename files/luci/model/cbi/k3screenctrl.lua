@@ -26,6 +26,19 @@ o:value("10",translate("10 s"))
 o.default = 2
 o.rmempty = false
 
+o = s:option(Flag, "city_checkip", translate("check city from ip :"), translate("check city from local ip"))
+o.default = 0
+
+o = s:option(Value, "city", translate("city :"), translate("please input right city name"))
+--o.rmempty = false
+
+o = s:option(ListValue, "update_time", translate("weather update_time :"))
+o:value("3600",translate("1h"))
+o:value("14400",translate("4h"))
+o:value("43200",translate("12h"))
+o.default = 3600
+o.rmempty = false
+
 o = s:option(Flag, "psk_hide", translate("Hide Wireless password"))
 o.default = 0
 
@@ -52,8 +65,10 @@ luci.sys.net.mac_hints(function(t,a)
 end)
 
 o = s:option(Value,"name",translate("Hostname"))
+o.rmempty = false
 
 o = s:option(ListValue,"icon",translate("Icon"))
+o.rmempty = false
 o:value("0",translate("Auto"))
 o:value("1",translate("OnePlus"))
 o:value("2","360")
