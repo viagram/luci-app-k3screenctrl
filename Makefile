@@ -33,6 +33,8 @@ define Package/$(PKG_NAME)/description
 endef
 
 define Build/Prepare
+	$(foreach po,$(wildcard ${CURDIR}/files/luci/i18n/*.po), \
+		po2lmo $(po) $(PKG_BUILD_DIR)/$(patsubst %.po,%.lmo,$(notdir $(po)));)
 endef
 
 define Package/$(PKG_NAME)/install
