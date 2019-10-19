@@ -22,6 +22,30 @@ msgstr "刷新间隔："
 msgid "Screen data refresh interval."
 msgstr "屏幕数据刷新间隔"
 
+msgid "check city from ip"
+msgstr "IP地址转城市名称"
+
+msgid "check city from local ip"
+msgstr "从本地IP转城市名称"
+
+msgid "city"
+msgstr "城市名称"
+
+msgid "please input right city name"
+msgstr "请输入正确的城市名称"
+
+msgid "weather update_time"
+msgstr "天气更新间隔"
+
+msgid "1h"
+msgstr "1 小时"
+
+msgid "4h"
+msgstr "4 小时"
+
+msgid "12h"
+msgstr "12 小时"
+
 msgid "Hide Wireless password"
 msgstr "隐藏无线密码"
 
