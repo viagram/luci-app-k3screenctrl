@@ -5,7 +5,7 @@ msgid "Screen"
 msgstr "屏显控制"
 
 msgid "Customize your device screen"
-msgstr "自定义你的设备屏幕"
+msgstr "自定义你的设备屏幕显示功能"
 
 msgid "General Setting"
 msgstr "基本设置"
@@ -155,7 +155,7 @@ msgid "Meizu"
 msgstr "魅族"
 
 msgid "Phicomm"
-msgstr "斐讯"
+msgstr "倒台斐讯"
 
 msgid "Samsung"
 msgstr "三星"
