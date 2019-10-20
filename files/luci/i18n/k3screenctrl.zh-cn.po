@@ -53,7 +53,7 @@ msgid "Display CPU temperature"
 msgstr "显示 CPU 温度"
 
 msgid "The first page shows the CPU temperature."
-msgstr "第一页显示 CPU 温度"
+msgstr "起始页显示 CPU 温度"
 
 msgid "Test"
 msgstr "测试"
@@ -71,7 +71,7 @@ msgid "Device customization"
 msgstr "设备自定义"
 
 msgid "Customize the fifth page of device information"
-msgstr "自定义WIFI接入设备信息"
+msgstr "自定义接入的设备信息"
 
 msgid "Device"
 msgstr "设备"
