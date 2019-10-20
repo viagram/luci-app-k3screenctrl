@@ -23,7 +23,7 @@ msgid "Screen data refresh interval."
 msgstr "屏幕数据刷新间隔"
 
 msgid "check city from ip :"
-msgstr "IP地址转城市名称: "
+msgstr "从IP转城市: "
 
 msgid "check city from local ip"
 msgstr "从本地IP转城市名称"
