@@ -71,7 +71,7 @@ msgid "Device customization"
 msgstr "设备自定义"
 
 msgid "Customize the fifth page of device information"
-msgstr "自定义第五页设备信息"
+msgstr "自定义WIFI接入设备信息"
 
 msgid "Device"
 msgstr "设备"
