@@ -109,6 +109,9 @@ msgstr "30 分"
 msgid "60 m"
 msgid "60 分"
 
+msgid "off"
+msgid "关闭"
+
 msgid "Auto"
 msgstr "自动"
 
